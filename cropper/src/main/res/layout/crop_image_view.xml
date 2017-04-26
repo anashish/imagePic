@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <ImageView
+        android:id="@+id/ImageView_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        tools:ignore="contentDescription" />
+
+    <com.theartofdev.edmodo.cropper.CropOverlayView
+        android:id="@+id/CropOverlayView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+    <ProgressBar
+        android:id="@+id/CropProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <FrameLayout
+
+        android:id="@+id/overlay_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.7"
+        android:background="#000000"
+        android:fitsSystemWindows="true" >
+
+
+    <EditText
+        android:id="@+id/txt_First"
+        android:layout_width="fill_parent"
+        android:layout_height="85dp"
+        android:width="30dp"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="zoom and pan to align photo Centrally "
+        android:textColor="#FFFFFF"
+        android:textSize="28dp"
+        android:textStyle="bold"></EditText>
+
+    <EditText
+        android:id="@+id/txt_Second"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="400dp"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="crop to apply effects"
+        android:textColor="#ffffff"
+        android:textSize="28dp"
+        android:textStyle="bold">
+
+        <requestFocus></requestFocus>
+    </EditText>
+</FrameLayout>
+
+</merge>
+
+
+

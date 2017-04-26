@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rc_gallery"
+
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="25dp"
+        android:src="@drawable/i2camera"
+        app:elevation="15dp"
+        android:onClick="openCamera"
+        app:backgroundTint="@color/dark_gray"
+        app:rippleColor="@color/app_theme_color"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

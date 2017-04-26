@@ -1,0 +1,6 @@
+include ':apprater', 'imagemagic'
+include 'cropper'
+
+include 'picazzy'
+include ':android_ImageMagick'
+include ':androidimgprolibmaster'

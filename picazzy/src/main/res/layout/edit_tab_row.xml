@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/tab_image_row"
+        android:layout_width="32dp"
+        android:layout_margin="3dp"
+        android:src="@drawable/i4home"
+        android:layout_height="32dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:textSize="10sp"
+        android:visibility="visible"
+        android:gravity="center"
+        android:id="@+id/edit_tab_name"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

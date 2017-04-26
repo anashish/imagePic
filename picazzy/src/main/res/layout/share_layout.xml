@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="#A6000000"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:id="@+id/layout_share"
+    android:layout_alignParentTop="true"
+    android:visibility="visible"
+    android:weightSum="6">
+
+
+    <ImageView
+        android:id="@+id/facebook"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:src="@drawable/i6facebook" />
+
+    <ImageView
+        android:id="@+id/instagram"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:src="@drawable/i6instagram" />
+    <ImageView
+        android:id="@+id/twiietr"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:src="@drawable/i6twitter" />
+
+    <ImageView
+        android:id="@+id/image_whats_up"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:src="@drawable/i6whatsapp" />
+
+    <ImageView
+        android:id="@+id/save_to_gallery"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:src="@drawable/i6savetogallery"
+
+        />
+
+    <ImageView
+        android:id="@+id/share_button"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:src="@drawable/i6upload" />
+
+</LinearLayout>

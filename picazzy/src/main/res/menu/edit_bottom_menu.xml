@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_auto"
+        android:enabled="true"
+        android:icon="@drawable/i7auto1"
+        android:title="Auto"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_brightness"
+        android:enabled="true"
+        android:title="Brightness"
+        android:icon="@drawable/i7brightness"
+        app:showAsAction="always" />
+    <item
+
+        android:enabled="true"
+        android:id="@+id/action_contrast"
+        android:title="Contrast"
+        android:icon="@drawable/i7contrast"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_highlight"
+        android:enabled="true"
+        android:title="Highlights"
+        android:icon="@drawable/i7highlights"
+        app:showAsAction="always" />
+
+</menu>

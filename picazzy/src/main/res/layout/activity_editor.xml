@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_editor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/app_theme_color"
+        android:orientation="vertical"
+        tools:context=".EditorActivity"
+        >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:background="@color/app_theme_color"
+                android:elevation="10dp">
+
+                <ImageView
+                    android:id="@+id/back_button"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:padding="5dp"
+                    android:background="?attr/selectableItemBackground"
+                    android:layout_centerHorizontal="true"
+                    android:clickable="true"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/i5back"
+                   />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/i4home"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:padding="10dp"
+                    android:clickable="true"
+                    android:onClick="startHome"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@+id/img_share"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:clickable="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:src="@drawable/i5share" />
+
+            </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="4"
+            android:layout_height="0dp">
+
+            <ImageView
+            android:id="@+id/edit_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            />
+
+            <include
+                layout="@layout/share_layout"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                 />
+
+            <FrameLayout
+                android:id="@+id/content"
+                android:visibility="visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+            </FrameLayout>
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/effectadapter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:background="#ffffff"
+            android:paddingTop="2dp"
+            android:elevation="20dp"
+            android:orientation="vertical">
+
+            <com.apptown.Picazzy.HorizontalListView
+                android:id="@+id/hlv"
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:layout_marginBottom="0dp"
+                android:background="#ffffff"
+                android:visibility="visible"
+                android:layout_gravity="center"
+               />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:id="@+id/edit_layout"
+                    android:visibility="gone"
+                    android:layout_height="135dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:paddingTop="8dp"
+                        android:id="@+id/color_control_indicator"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:src="@drawable/i4cross"
+                            android:padding="15dp"
+                            android:id="@+id/discard"
+                            android:layout_height="wrap_content" />
+                        <SeekBar
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/seekBar"
+                            android:progress="50"
+                            android:thumb="@drawable/seek_bar_bg"
+                            android:layout_marginTop="15dp"
+                            android:layout_weight="1" />
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:src="@drawable/i4tickmark"
+                            android:padding="15dp"
+                            android:id="@+id/accept"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_weight="0"
+                        android:layout_height="wrap_content">
+
+                        <android.support.design.widget.TabLayout
+                            android:id="@+id/edit_tab"
+                            android:layout_width="match_parent"
+                            android:layout_height="55dp"
+                            android:layout_gravity="center_horizontal"
+                            app:tabMode="scrollable"
+                            android:background="#ffffff"
+                            android:layout_marginBottom="2dp"
+                            app:tabBackground="@color/white"
+                            app:tabIndicatorHeight="0dp"
+                           />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="135dp"
+                />
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                app:tabMode="fixed"
+                android:elevation="10dp"
+                android:background="#ffffff"
+                android:layout_marginBottom="2dp"
+                app:tabBackground="@color/app_theme_color"
+                app:tabIndicatorColor="@color/black"
+                app:tabIndicatorHeight="1dp"
+                app:tabGravity="fill"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+

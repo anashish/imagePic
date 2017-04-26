@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "950133400613",
+    "firebase_url": "https://picazzy-3699c.firebaseio.com",
+    "project_id": "picazzy-3699c",
+    "storage_bucket": "picazzy-3699c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950133400613:android:c88d811e3d462ed7",
+        "android_client_info": {
+          "package_name": "com.apptown.Picazzy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950133400613-ci0116a6kvfjc47s1h7v8p5ks7d14sie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-hVr7bCjonD7VYZE4WZ68t8FppYkITSY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

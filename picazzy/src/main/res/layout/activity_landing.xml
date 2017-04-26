@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/app_theme_color"
+    android:fitsSystemWindows="true"
+    tools:context=".LandingActivity">
+
+
+    <include layout="@layout/content_bottom_sheet" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        app:behavior_hideable="false"
+        android:background="@color/app_theme_color"
+        app:behavior_peekHeight="200dp"
+        app:layout_behavior="@string/bottom_sheet_behavior">
+        <include layout="@layout/gallery_bottom_row" />
+    </FrameLayout>
+
+</android.support.design.widget.CoordinatorLayout>

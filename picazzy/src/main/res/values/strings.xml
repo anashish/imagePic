@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Picazzy</string>
+    <string name="gallery">You do not have permission to open gallery</string>
+    <string-array name="effect_names_paintify">
+        <item>Spray Fresco</item>
+        <item>Soft Canvas</item>
+        <item>Crayon Art</item>
+        <item>Color Spill</item>
+        <item>Art Glint</item>
+        <item>Neon Flares</item>
+        <item>Poster Dusk</item>
+        <item>Water Color</item>
+        <item>Copper Sketch</item>
+        <item>Triptych</item>
+        <item>Crazy Beams</item>
+    </string-array>
+
+    <string-array name="effect_names_splash">
+        <item>Dramatic Web</item>
+        <item>Paint Splashes</item>
+        <item>Enigma</item>
+        <item>Canvas Flare</item>
+        <item>Water Splash</item>
+        <item>Art Lens</item>
+        <item>Kolam</item>
+        <item>Temptation Streaks</item>
+        <item>Color Fusions</item>
+        <item>Plume Bloom</item>
+        <item>Misty Feathers</item>
+        <item>Color Glitters</item>
+    </string-array>
+
+    <string-array name="effect_names_electic">
+        <item>Vintage Dust</item>
+        <item>Retro Dusk</item>
+        <item>Dark Fantasy</item>
+        <item>Diamond Hues</item>
+        <item>Duchrome Sketch</item>
+        <item>Vintage Dreams</item>
+        <item>Sweet Dawns</item>
+        <item>Aqua</item>
+        <item>Pencil Sketch</item>
+        <item>Frosty Ochre</item>
+        <item>Misty Rays</item>
+    </string-array>
+
+    <string-array name="effect_name_cocoon">
+        <item>PhotoBox</item>
+        <item>Love Mystified</item>
+        <item>Sheer Tear</item>
+        <item>Paper Folds</item>
+        <item>Tropical Maze</item>
+        <item>Love Dreams</item>
+        <item>Trinity</item>
+        <item>Purple Jay</item>
+        <item>Love Puzzle</item>
+        <item>Petal Peep</item>
+        <item>Holed Wall</item>
+    </string-array>
+    <string-array name="effect_names_paintyfy_code">
+        <item>PT11</item>
+        <item>PT7</item>
+        <item>PT20</item>
+        <item>PT32</item>
+        <item>PT36</item>
+        <item>PT30</item>
+        <item>PT4</item>
+        <item>PT1</item>
+        <item>PT19</item>
+        <item>PS03</item>
+        <item>PT37</item>
+    </string-array>
+    <string-array name="effect_names_splash_code">
+        <item>PT34</item>
+        <item>PT3</item>
+        <item>PT2-1</item>
+        <item>PT22</item>
+        <item>PT2-3</item>
+        <item>PT29</item>
+        <item>PT18</item>
+        <item>PT2-4</item>
+        <item>PT2-2</item>
+        <item>PS15</item>
+        <item>PT2-5</item>
+        <item>PT9</item>
+    </string-array>
+    <string-array name="effect_names_electic_code">
+        <item>PT28</item>
+        <item>PT31</item>
+        <item>PT27</item>
+        <item>PT35</item>
+        <item>PT21</item>
+        <item>PT13</item>
+        <item>PT26</item>
+        <item>PT17</item>
+        <item>PS02</item>
+        <item>PS04</item>
+        <item>PS04</item>
+    </string-array>
+    <string-array name="effect_names_cocoon_code">
+        <item>PT33</item>
+        <item>PT6</item>
+        <item>PT23-2</item>
+        <item>PS07</item>
+        <item>PS08</item>
+        <item>PT5-1</item>
+        <item>PS06</item>
+        <item>PT25-1</item>
+        <item>PT5-4</item>
+        <item>PT25-2</item>
+        <item>PT23-1</item>
+    </string-array>
+
+    <string-array name="Artistic_effects">
+        <item> Dramatic Web</item>
+        <item> Duochrome</item>
+        <item>Crazy Beams</item>
+        <item>Spray Fresco</item>
+        <item>Enigma</item>
+        <item>Paint Splashes</item>
+        <item>Vintage Dust</item>
+        <item>Ink Sketch</item>
+        <item>Color Spill</item>
+        <item>Soft Canvas</item>
+        <item>Water Splash</item>
+        <item>Retro Dusk</item>
+        <item>Art Glint</item>
+        <item>Art Lens</item>
+        <item>Draby</item>
+        <item>Crayon Art</item>
+        <item>Dark Fantasy</item>
+        <item>Copper Sketch</item>
+        <item>Water Color</item>
+        <item>Pencil Sketch</item>
+        <item>Tryptich</item>
+        <item>Sublime</item>
+        <item>Cocoa</item>
+        <item>Pictoral</item>
+        <item>Vintage Dreams</item>
+        <item>Canvas Flare</item>
+        <item>Temptations</item>
+        <item>Mocha</item>
+        <item>Ochre</item>
+        <item>Color Fusion</item>s
+        <item>Misty Feathers</item>
+        <item>Plume Bloom</item>
+        <item>Poster Dusk</item>
+    </string-array>
+
+    <string-array name="artistic_filter_code">
+        <item>PT34</item>
+        <item>PT21</item>
+        <item>PT37</item>
+        <item>PT11</item>
+        <item> PT2-1</item>
+        <item>PT3</item>
+        <item>PT28</item>
+        <item> PT39</item>
+        <item>PT32</item>
+        <item>PT7</item>
+        <item>PT2-3</item>
+        <item>PT31</item>
+        <item>PT36</item>
+        <item>PT29</item>
+        <item>PT19a</item>
+        <item>PT20</item>
+        <item>PT27</item>
+        <item>PT19</item>
+        <item>PT1</item>
+        <item>PS02</item>
+        <item>PS03</item>
+        <item>PT19b</item>
+        <item>PT19c</item>
+        <item>PT11a</item>
+        <item>PT13</item>
+        <item>PT22</item>
+        <item>PT2-4</item>
+        <item>PT41</item>
+        <item>PT42</item>
+        <item>PT2-2</item>
+        <item>PT2-5</item>
+        <item>PT15</item>
+        <item>PT4</item>
+        <item>PT39</item>
+        <item>PT19a</item>
+        <item>PT19b</item>
+        <item>PT19c</item>
+        <item>PT11a</item>
+        <item>PT41</item>
+        <item>PT42</item>
+    </string-array>
+
+    <string-array name="filter_name">
+        <item>Glitch</item>
+        <item>Bosky</item>
+        <item>Dawn</item>
+        <item>Vivid</item>
+        <item>Bonfire</item>
+        <item>Aqua</item>
+        <item>Morning</item>
+        <item>Luster</item>
+        <item>Velvette</item>
+        <item>Reflections</item>
+        <item>3D PhotoBox</item>
+        <item>Diamond Hues</item>
+        <item> Gusto</item>
+        <item>Sheen</item>n
+        <item>Blush</item>
+        <item>B&amp;W</item>
+        <item>Love Dreams</item>
+        <item>Love Mystified</item>
+        <item>Shaam</item>
+        <item>Torrid</item>
+        <item>Splendor</item>
+        <item>Tropical Maze</item>
+        <item>Paper Folds</item>
+        <item>Lush</item>
+        <item>Dusk</item>
+        <item>Argent</item>
+        <item>Ory</item>
+        <item>Mettle</item>
+    </string-array>
+
+    <string-array name="filter_code">
+        <item>PT40</item>
+        <item>PF11</item>
+        <item>PF12</item>
+        <item>PF1</item>
+        <item>PF7</item>
+        <item>PT17</item>
+        <item>PF8</item>
+        <item>PF10</item>
+        <item>PF3</item>
+        <item>PT38</item>
+        <item>PT33</item>
+        <item>PT35</item>
+        <item>PF22</item>
+        <item>PF16</item>
+        <item>PF17</item>
+        <item>PF19</item>
+        <item>PT5-1</item>
+        <item>PT6</item>
+        <item>PF4</item>
+        <item>PF5</item>
+        <item>PF20</item>
+        <item>PS08</item>
+        <item>PS07</item>
+        <item>PF21</item>
+        <item>PF2</item>
+        <item>PF15</item>
+        <item>PF14</item>
+        <item>PF13</item>
+    </string-array>
+    <string-array name="edit_option">
+        <item>Auto</item>
+        <item>Sharpness</item>
+        <item>Brightness</item>
+        <item>Contrast</item>
+        <item>Saturation</item>
+        <item>Vignette</item>
+    </string-array>
+    <string-array name="tab_home_name">
+        <item>Artistic</item>
+        <item>Basic</item>
+        <item>Edit</item>
+        <item>Events</item>
+    </string-array>
+
+    <string name="toast_artistic_msg">Artistic</string>
+    <string name="toast_filter_msg">Filters</string>
+    <string name="toast_edit_msg">Edit Tools</string>
+    <string name="toast_event_msg">Events</string>
+    <string name="select_photo">Select Photo</string>
+    <string name="camera">Camera</string>
+    <string name="facebook_app_id">195811400928839</string>
+
+</resources>
